@@ -1,0 +1,609 @@
+[DEBUG] 2022-01-18 12:58:20.749 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 12:59:08.568 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:00:43.909 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:04:31.277 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:12:32.177 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:19:03.623 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:21:37.653 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:24:20.612 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:25:50.671 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:30:43.817 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:33:24.230 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:36:08.852 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:40:09.656 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 13:41:12.564 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:24:05.938 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:25:09.299 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:26:11.382 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:26:41.444 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:30:57.459 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:31:35.271 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:31:58.720 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:40:53.313 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:47:38.432 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:53:05.468 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:56:29.325 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 14:59:03.390 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-18 14:59:09.568 [http-nio-8080-exec-3] AbstractDao - Something went wrong during user retrieval by login=null
+org.postgresql.util.PSQLException: Œÿ»¡ ¿: Ó¯Ë·Í‡ ÒËÌÚ‡ÍÒËÒ‡ (ÔËÏÂÌÓÂ ÔÓÎÓÊÂÌËÂ: ",")
+  œÓÁËˆËˇ: 38
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:65) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.controllers.PersonController.login(PersonController.java:39) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [servlet-api.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[DEBUG] 2022-01-18 15:07:39.518 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-18 15:07:45.457 [http-nio-8080-exec-4] AbstractDao - Something went wrong during user retrieval by login=null
+org.postgresql.util.PSQLException: Œÿ»¡ ¿: Ó¯Ë·Í‡ ÒËÌÚ‡ÍÒËÒ‡ (ÔËÏÂÌÓÂ ÔÓÎÓÊÂÌËÂ: ",")
+  œÓÁËˆËˇ: 38
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:65) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.controllers.PersonController.login(PersonController.java:39) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [servlet-api.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[DEBUG] 2022-01-18 15:16:00.155 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-18 15:16:22.925 [http-nio-8080-exec-5] AbstractDao - Something went wrong during user retrieval by login={login}
+org.postgresql.util.PSQLException: Œÿ»¡ ¿: Ó¯Ë·Í‡ ÒËÌÚ‡ÍÒËÒ‡ (ÔËÏÂÌÓÂ ÔÓÎÓÊÂÌËÂ: "{")
+  œÓÁËˆËˇ: 34
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:65) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.controllers.PersonController.personPage(PersonController.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [servlet-api.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[DEBUG] 2022-01-18 15:21:14.613 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-18 15:21:42.129 [http-nio-8080-exec-6] AbstractDao - Something went wrong during user retrieval by login={login}
+org.postgresql.util.PSQLException: Œÿ»¡ ¿: Ó¯Ë·Í‡ ÒËÌÚ‡ÍÒËÒ‡ (ÔËÏÂÌÓÂ ÔÓÎÓÊÂÌËÂ: "{")
+  œÓÁËˆËˇ: 34
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:65) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.controllers.PersonController.personPage(PersonController.java:45) [classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) [spring-web-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) [servlet-api.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.1.RELEASE.jar:5.2.1.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) [servlet-api.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-websocket.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [catalina.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [catalina.jar:9.0.45]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687) [catalina.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [catalina.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [catalina.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-coyote.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-coyote.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-coyote.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-util.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[ERROR] 2022-01-18 15:25:11.895 [main] AbstractDao - Something went wrong during user retrieval by login=vanek228
+org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: —Å—Ç–æ–ª–±–µ—Ü "vanek228" –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç
+  –ü–æ–∑–∏—Ü–∏—è: 34
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:65) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.dao.PersonDaoTest.testPersonDao(PersonDaoTest.java:33) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 15:26:36.457 [main] AbstractDao - Something went wrong during user retrieval by login=vanek228
+org.postgresql.util.PSQLException: –ö–æ–ª–æ–Ω–∫–∏ id –Ω–µ –Ω–∞–π–¥–µ–Ω–æ –≤ —ç—Ç–æ–º ResultSet‚Äô‚Äô–µ.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2631) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:13) ~[classes/:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:9) ~[classes/:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:69) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.dao.PersonDaoTest.testPersonDao(PersonDaoTest.java:33) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 15:27:08.282 [main] AbstractDao - Something went wrong during user retrieval by login=vanek228
+org.postgresql.util.PSQLException: –ö–æ–ª–æ–Ω–∫–∏ id –Ω–µ –Ω–∞–π–¥–µ–Ω–æ –≤ —ç—Ç–æ–º ResultSet‚Äô‚Äô–µ.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2631) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:13) ~[classes/:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:9) ~[classes/:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:69) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.dao.PersonDaoTest.testPersonDao(PersonDaoTest.java:33) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 15:29:59.657 [main] AbstractDao - Something went wrong during user retrieval by login=vanek228
+org.postgresql.util.PSQLException: –ö–æ–ª–æ–Ω–∫–∏ id –Ω–µ –Ω–∞–π–¥–µ–Ω–æ –≤ —ç—Ç–æ–º ResultSet‚Äô‚Äô–µ.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2631) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:13) ~[classes/:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:9) ~[classes/:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:69) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.dao.PersonDaoTest.testPersonDao(PersonDaoTest.java:33) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 15:32:19.460 [main] AbstractDao - Something went wrong during user retrieval by login=vanek228
+org.postgresql.util.PSQLException: –ö–æ–ª–æ–Ω–∫–∏ id –Ω–µ –Ω–∞–π–¥–µ–Ω–æ –≤ —ç—Ç–æ–º ResultSet‚Äô‚Äô–µ.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgResultSet.getLong(PgResultSet.java:2631) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getLong(HikariProxyResultSet.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:13) ~[classes/:?]
+	at com.epam.dao.mapping.PersonMapper.toObject(PersonMapper.java:9) ~[classes/:?]
+	at com.epam.dao.PersonDao.findByLoginAndPass(PersonDao.java:69) [classes/:?]
+	at com.epam.service.PersonService.getByLoginAndPass(PersonService.java:38) [classes/:?]
+	at com.epam.dao.PersonDaoTest.testPersonDao(PersonDaoTest.java:33) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[DEBUG] 2022-01-18 15:36:44.443 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 15:38:45.188 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 15:43:49.979 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 15:46:41.797 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 15:50:24.629 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 15:53:22.323 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:03:22.304 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:05:50.216 [RMI TCP Connection(4)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:08:23.800 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:10:56.016 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:14:12.229 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:16:35.271 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:17:46.260 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:19:20.902 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:26:47.846 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:29:14.793 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:57:05.190 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 16:59:24.801 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:02:34.635 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:04:17.036 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:13:57.439 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:19:35.041 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:25:05.693 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:25:51.798 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:26:27.283 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:27:57.172 [RMI TCP Connection(4)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:31:09.882 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:40:29.156 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:44:04.328 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:47:54.586 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:49:09.547 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:50:53.498 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:51:44.727 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:52:51.109 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:54:10.508 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 17:56:23.727 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:03:47.606 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:11:36.486 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:15:50.721 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:19:23.859 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:22:22.106 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:50:01.522 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:52:10.329 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 18:59:15.775 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:01:41.661 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:05:20.465 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:06:29.328 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:13:50.905 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:14:36.632 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:19:17.132 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:22:46.172 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:28:28.087 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:43:18.426 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:48:33.625 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 19:58:06.541 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:06:41.337 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:09:42.057 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:23:56.288 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:28:12.641 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:29:44.620 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:31:11.399 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:32:32.526 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:36:27.090 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:40:09.370 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:44:28.633 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:48:40.663 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:51:02.527 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 20:58:45.726 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:09:35.575 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:10:49.737 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:13:11.832 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:15:44.267 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:18:09.537 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:18:26.579 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:21:01.090 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 21:47:04.596 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 23:07:16.040 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 23:08:39.922 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-18 23:10:45.363 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-18 23:45:28.411 [main] AbstractDao - Something went wrong during user retrieval by login=
+org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –Ω–µ–≤–µ—Ä–Ω—ã–π —Å–∏–Ω—Ç–∞–∫—Å–∏—Å –¥–ª—è —Ç–∏–ø–∞ integer: "BUSINESS"
+  –ü–æ–∑–∏—Ü–∏—è: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.RoomDao.getRoomByApplication(RoomDao.java:50) [classes/:?]
+	at com.epam.service.RoomService.getRoomByApp(RoomService.java:23) [classes/:?]
+	at com.epam.service.RoomServiceTest.testRoomService(RoomServiceTest.java:25) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 23:46:05.732 [main] AbstractDao - Something went wrong during user retrieval by login=
+org.postgresql.util.PSQLException: –û–®–ò–ë–ö–ê: –Ω–µ–≤–µ—Ä–Ω—ã–π —Å–∏–Ω—Ç–∞–∫—Å–∏—Å –¥–ª—è —Ç–∏–ø–∞ integer: "BUSINESS"
+  –ü–æ–∑–∏—Ü–∏—è: 67
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:322) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:308) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:284) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:236) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeQuery(ProxyStatement.java:110) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeQuery(HikariProxyStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.RoomDao.getRoomByApplication(RoomDao.java:50) [classes/:?]
+	at com.epam.service.RoomService.getRoomByApp(RoomService.java:23) [classes/:?]
+	at com.epam.service.RoomServiceTest.testRoomService(RoomServiceTest.java:25) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-18 23:52:15.325 [main] AbstractDao - Something went wrong during user retrieval by login=
+org.postgresql.util.PSQLException: –ö–æ–ª–æ–Ω–∫–∏ busy –Ω–µ –Ω–∞–π–¥–µ–Ω–æ –≤ —ç—Ç–æ–º ResultSet‚Äô‚Äô–µ.
+	at org.postgresql.jdbc.PgResultSet.findColumn(PgResultSet.java:2748) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgResultSet.getBoolean(PgResultSet.java:2611) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.HikariProxyResultSet.getBoolean(HikariProxyResultSet.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.mapping.RoomMapper.toObject(RoomMapper.java:17) ~[classes/:?]
+	at com.epam.dao.mapping.RoomMapper.toObject(RoomMapper.java:9) ~[classes/:?]
+	at com.epam.dao.RoomDao.getRoomByApplication(RoomDao.java:53) [classes/:?]
+	at com.epam.service.RoomService.getRoomByApp(RoomService.java:23) [classes/:?]
+	at com.epam.service.RoomServiceTest.testRoomService(RoomServiceTest.java:25) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]

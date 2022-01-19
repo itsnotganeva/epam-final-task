@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Apps</title>
+    <style>
+        body {
+            background: url("https://psv4.userapi.com/c536236/u176748061/docs/d50/adcb93dc86d7/hotel2.jpg?extra=HV61nEHgdY5I5bnNR0l8yR6bJeoA7HN8YgI8AJxC0FDUjlWY_pK0bHgaso2Wnip3-3eCar03vF25o0QYLjw6RUr-V6cfrz5VeDERXGpPAndDvi5Of1lc3bq9rm6DkGFOrg4nRxze9B-0Kro7TelNbqLk") no-repeat;
+            -webkit-background-size: 100%;
+            background-attachment: fixed;
+        }
+        h2 {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div th:each="a : ${applications}">
+    <h2 th:text="${a.getSeatsNumber()}">value</h2>
+    <h2 th:text="${a.getApartmentsClass()}">value</h2>
+    <h2 th:text="${a.getCheckInDate()}">value</h2>
+    <h2 th:text="${a.getCheckOutDate()}">value</h2>
+    <h2 th:text="${a.getPersonId()}">value</h2>
+    <a class="link" th:href="@{/application/{id}(id=${a.getId()})}">Pick up a room and send a check</a>
+
+</div>
+
+</form>
+</body>
+</html>

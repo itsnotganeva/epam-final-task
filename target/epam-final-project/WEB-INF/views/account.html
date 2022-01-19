@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Apps</title>
+    <style>
+        body {
+            background: url("https://psv4.userapi.com/c536236/u176748061/docs/d50/adcb93dc86d7/hotel2.jpg?extra=HV61nEHgdY5I5bnNR0l8yR6bJeoA7HN8YgI8AJxC0FDUjlWY_pK0bHgaso2Wnip3-3eCar03vF25o0QYLjw6RUr-V6cfrz5VeDERXGpPAndDvi5Of1lc3bq9rm6DkGFOrg4nRxze9B-0Kro7TelNbqLk") no-repeat;
+            -webkit-background-size: 100%;
+            background-attachment: fixed;
+        }
+        h2 {
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+<div th:each="room : ${rooms}">
+    <h2 th:text="${room.getId()}">value</h2>
+    <h2 th:text="${room.getSeatsNumber()}">value</h2>
+    <h2 th:text="${room.getApartmentsClass()}">value</h2>
+    <h2 th:text="${room.getPrice()}">value</h2>
+    <br>
+</div>
+
+</form>
+</body>
+</html>

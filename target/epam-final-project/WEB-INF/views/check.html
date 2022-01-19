@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Zoo</title>
+  <link rel="stylesheet" >
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      position: relative;
+      background: #FBFBFB;
+      padding: 0;
+      margin: 0;
+    }
+
+    header{
+      position: absolute;
+      width: 100%;
+      height: 65px;
+      left: 0px;
+      top: 0px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 8px rgba(44, 101, 77, 0.08);
+    }
+    .logo1 {
+      position: absolute;
+      left: 151px;
+      top: 4px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 42px;
+      color: #333333;
+    }
+    .logo2 {
+      position: absolute;
+      left: 151px;
+      top: 38px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 21px;
+      letter-spacing: 0.08em;
+      color: #333333;
+    }
+    .about {
+      position: absolute;
+      left: 390px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #333333;
+    }
+    .app {
+      position: absolute;
+      left: 560px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 1000;
+      font-size: 16px;
+      line-height: 19px;
+      text-decoration: underline;
+      color: #333333;
+    }
+    .account {
+      position: absolute;
+      left: 850px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #333333;
+    }
+
+    .logOut {
+      position: absolute;
+      left: 1100px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #333333;
+    }
+
+    li {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+    }
+    .container {
+      position: absolute;
+      top: 65px;
+      width: 100%;
+      height: 773px;
+    }
+    .hotel {
+      top: 65px;
+      width: 100%;
+      height: 100%;
+    }
+
+    p {
+      position: absolute;
+      width: 390px;
+      height: 80px;
+      left: 80px;
+      top: 205px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FEFEFE;
+    }
+
+    .appForm {
+      position: absolute;
+      left: 400px;
+      top: 97px;
+      width: 420px;
+      margin: 25px auto;
+      font: 1em Helvetica;
+      /*font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 56px;
+      color: #FEFEFE;
+      border: #FEFEFE 2px solid;
+      -webkit-text-stroke: 1px black;
+      padding: 33px;*/
+    }
+    /*  .appForm input {
+        width:150px ;
+        height: 30px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 56px;
+        color: #333333;
+      }*/
+    .inputField {
+      margin: -21px;
+    }
+
+    .signup {
+      float: left;
+      width: 300px;
+      padding: 30px 20px;
+      background-color: white;
+      text-align: center;
+      border-radius: 5px 0 0 5px;
+    }
+
+    [type=text] {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      height: 45px;
+      line-height: 45px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      color: rgba(0,0,0,.4);
+    }
+
+    [type=password] {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      height: 45px;
+      line-height: 45px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      color: rgba(0,0,0,.4);
+    }
+
+    [type=date] {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border: 0;
+      border-bottom: 1px solid rgba(0,0,0,.2);
+      height: 45px;
+      line-height: 45px;
+      margin-bottom: 10px;
+      font-size: 1em;
+      color: rgba(0,0,0,.4);
+    }
+
+    [type=submit] {
+      margin-top: 25px;
+      width: 80%;
+      border: 0;
+      background-color: #53CACE;
+      border-radius: 5px;
+      height: 50px;
+      color: white;
+      font-weight: 400;
+      font-size: 1em;
+    }
+
+    [type='text']:focus {
+      outline: none;
+      border-color: #53CACE;
+    }
+
+    span {
+      font-size: .75em;
+      background-color: white;
+      padding: 2px 5px;
+      color: rgba(0,0,0,.6);
+      border-radius: 2px;
+      box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+      margin: 5px;
+    }
+
+    span:hover {
+      color: #53CACE;
+    }
+
+    p:nth-of-type(2) {
+      font-size: 1em;
+    }
+
+    #edit {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 30px;
+      line-height: 23px;
+      color: #FEFEFE;
+      text-decoration: underline;
+      border: none;
+      background: none;
+      cursor: pointer;
+      width: auto;
+    }
+
+
+    /*
+    ///////////////////////////// */
+    footer {
+      position: absolute;
+      width: 100%;
+      height: 170px;
+      top: 765px;
+      left: 0px;
+      bottom: 0px;
+      background: #333333;
+    }
+    .footLogo1 {
+      position: absolute;
+      left: 151px;
+      top: 10px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 38px;
+      line-height: 42px;
+      color: #FEFEFE;
+    }
+    .footLogo2 {
+      position: absolute;
+      left: 151px;
+      top: 45px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 15px;
+      line-height: 21px;
+      letter-spacing: 0.08em;
+      color: #FEFEFE;
+    }
+    .footAbout {
+      position: absolute;
+      left: 590px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FEFEFE;
+    }
+    .footApp {
+      position: absolute;
+      left: 745px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 1000;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FEFEFE;
+    }
+    .footAccount {
+      position: absolute;
+      right: 151px;
+      top: 23px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #FEFEFE;
+    }
+    .footerLine {
+      position: absolute;
+      width: 961px;
+      height: 0px;
+      left: 151px;
+      top: 70px;
+      border: 0.5px solid #FEFEFE;
+    }
+    .author {
+      position: absolute;
+      height: 0px;
+      left: 151px;
+      top: 90px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #BDBDBD;
+    }
+    .github  {
+      position: absolute;
+      height: 0px;
+      left: 151px;
+      top: 105px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      color: #BDBDBD;
+    }
+  </style>
+</head>
+<body>
+<!-- HEADER -->
+<header>
+  <a href="file:///D:/JavaProjects/FinalProject/client.html">
+    <div class="logo1">hotel</div>
+    <div class="logo2">reservation</div>
+  </a>
+  <ul class="headMenu">
+    <li><a class="about" href="">About</a></li>
+    <li><a class="app" href="/application/apply">Submit your application</a></li>
+    <li><a class="account" href="file:///D:/RS-SCHOOL/online-zoo/panda.html">Client account</a></li>
+    <li><a class="logOut" href="/">Log out</a></li>
+  </ul>
+</header>
+<div class="container">
+  <img class="hotel" src="https://psv4.userapi.com/c536236/u176748061/docs/d50/adcb93dc86d7/hotel2.jpg?extra=HV61nEHgdY5I5bnNR0l8yR6bJeoA7HN8YgI8AJxC0FDUjlWY_pK0bHgaso2Wnip3-3eCar03vF25o0QYLjw6RUr-V6cfrz5VeDERXGpPAndDvi5Of1lc3bq9rm6DkGFOrg4nRxze9B-0Kro7TelNbqLk" alt="">
+  <div class='signup'>
+    <form class="appForm" th:method="GET" th:action="@{/check/account}" th:object="${person}">
+      <input type='text' th:field="*{login}" placeholder='Login:'>
+      <input type='password' th:field="*{password}" placeholder='Password:'>
+      <input id="edit" type="submit" value="SUBMIT">
+    </form>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <a name="contacts"></a>
+  <div class="footContainer">
+    <div class="footLogo1">hotel</div>
+    <div class="footLogo2">reservation</div>
+    <ul class="headMenu">
+      <li><a class="footAbout" href="file:///D:/JavaProjects/FinalProject/client.html">About</a></li>
+      <li><a class="footApp" href="file:///D:/JavaProjects/FinalProject/application.html">Submit your application</a></li>
+      <li><a class="footAccount" href="file:///D:/RS-SCHOOL/online-zoo/panda.html">Client account</a></li>
+    </ul>
+    <div class="footerLine"></div>
+    <div class="author">©Matvey Ganevich</div>
+    <a class="github" href="https://github.com/itsnotganeva">©itsnotganeva</a>
+  </div>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,179 @@
+[DEBUG] 2022-01-17 15:18:37.093 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:25:24.959 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:32:23.662 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:36:49.446 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:41:14.974 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:43:19.459 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:44:21.002 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 15:51:35.728 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:19:28.506 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:32:43.852 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:36:24.055 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:37:58.076 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:42:35.238 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:43:39.151 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:46:56.083 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 16:55:34.794 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[ERROR] 2022-01-17 17:14:17.635 [main] AbstractDao - Something whent wrong during data saving retrieval
+org.postgresql.util.PSQLException: ОШИБКА: столбец "check_in_date" имеет тип date, а выражение - integer
+  Подсказка: Перепишите выражение или преобразуйте его тип.
+  Позиция: 108
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.AbstractDao.create(AbstractDao.java:126) [classes/:?]
+	at com.epam.dao.AbstractDao.save(AbstractDao.java:153) [classes/:?]
+	at com.epam.service.ApplicationService.apply(ApplicationService.java:40) [classes/:?]
+	at com.epam.service.ApplicationServiceTest.testAppService(AppServiceTest.java:28) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[ERROR] 2022-01-17 17:14:58.448 [main] AbstractDao - Something whent wrong during data saving retrieval
+org.postgresql.util.PSQLException: ОШИБКА: столбец "check_out_date" имеет тип date, а выражение - integer
+  Подсказка: Перепишите выражение или преобразуйте его тип.
+  Позиция: 106
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2553) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2285) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:323) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:473) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:393) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164) ~[postgresql-42.2.18.jar:42.2.18]
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:130) ~[postgresql-42.2.18.jar:42.2.18]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-5.0.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-5.0.0.jar:?]
+	at com.epam.dao.AbstractDao.create(AbstractDao.java:126) [classes/:?]
+	at com.epam.dao.AbstractDao.save(AbstractDao.java:153) [classes/:?]
+	at com.epam.service.ApplicationService.apply(ApplicationService.java:40) [classes/:?]
+	at com.epam.service.ApplicationServiceTest.testAppService(AppServiceTest.java:28) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+[DEBUG] 2022-01-17 17:24:03.051 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 17:32:06.191 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 17:38:04.652 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 17:39:54.566 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 17:42:23.166 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 17:55:59.010 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:04:53.718 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:06:22.183 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:07:21.974 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:07:52.749 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:08:50.822 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:15:09.016 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:29:43.903 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:30:32.082 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:32:56.488 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:36:06.567 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:45:58.834 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:47:01.297 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:48:58.784 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:50:20.414 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:52:59.854 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:55:18.464 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:56:36.171 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 18:57:57.212 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:00:14.180 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:00:56.027 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:02:10.568 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:03:24.666 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:04:39.140 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:06:31.906 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:19:13.097 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:21:16.767 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:26:01.284 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 19:28:19.627 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:10:15.120 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:12:14.356 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:14:53.432 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:15:34.600 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:49:43.282 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:50:51.199 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:54:57.906 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:55:37.380 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:56:45.688 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 20:59:54.779 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:02:01.205 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:04:21.989 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:08:08.474 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:09:56.428 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:14:02.555 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:18:56.627 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:20:28.820 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:21:42.538 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:28:52.712 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:31:49.581 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:33:08.792 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:35:28.926 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:37:06.605 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:38:53.535 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:43:25.148 [RMI TCP Connection(4)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 21:48:06.274 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:04:44.304 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:09:27.393 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:12:17.892 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:14:55.282 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:18:44.145 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:21:10.337 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:26:54.315 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:30:49.922 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:31:39.035 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:33:50.977 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:37:55.055 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:39:58.425 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:43:22.814 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:46:02.792 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:49:57.007 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:53:37.446 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 22:56:26.704 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:02:16.536 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:11:37.439 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:28:41.716 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:31:05.669 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:31:40.338 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:33:56.732 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:34:41.297 [RMI TCP Connection(5)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
+[DEBUG] 2022-01-17 23:41:18.293 [RMI TCP Connection(3)-127.0.0.1] DispatcherServletInitializer - No ContextLoaderListener registered, as createRootApplicationContext() did not return an application context
